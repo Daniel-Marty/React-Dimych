@@ -17,3 +17,6 @@ li {
   grid-area: c;
     background-color: coral;
 }
+a {
+  text-decoration: none;
+}
