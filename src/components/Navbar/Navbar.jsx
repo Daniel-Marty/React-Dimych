@@ -14,7 +14,7 @@ const Navbar = () => {
             Profile
           </NavLink>
         </li>
-        <li>
+        {/* <li>
           <NavLink
             to="/dialogs"
             className={(navData) => (navData.isActive ? cl.active : cl.item)}
@@ -45,7 +45,7 @@ const Navbar = () => {
           >
             Settings
           </NavLink>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );
